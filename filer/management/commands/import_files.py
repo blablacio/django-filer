@@ -5,7 +5,7 @@ import os
 from optparse import make_option
 
 from django.core.files import File as DjangoFile
-from django.core.management.base import BaseCommand, NoArgsCommand
+from django.core.management.base import BaseCommand
 
 from ...models.filemodels import File
 from ...models.foldermodels import Folder
